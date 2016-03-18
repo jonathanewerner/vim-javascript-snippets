@@ -6,7 +6,7 @@ Some javascript snippets meant for usage with [UltiSnips](https://github.com/Sir
 ```viml
 " install deps with plugin manager of your choice
 Plugin 'SirVer/ultisnips' 
-Plugin 'jonathanewerner/vim-javascript-snippets'`
+Plugin 'jonathanewerner/vim-javascript-snippets'
 
 " If you write semicolons:
 let g:UltiSnipsSnippetDirectories = ["UltiSnips", "UltiSnips/javascript-with-semicolons"]
