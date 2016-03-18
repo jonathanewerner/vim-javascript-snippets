@@ -1,0 +1,49 @@
+# **********************************************
+#   Logging
+#
+# **********************************************
+snippet l "log.info value"
+console.info('[`!p snip.rv = fn`] $1: ', $1);
+endsnippet
+
+snippet cl "console.log(...)"
+console.info('[`!p snip.rv = fn`] ', $0);
+endsnippet
+
+
+# **********************************************
+#   Other
+#
+# **********************************************
+snippet xxx "xxx"
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+console.log('xxxxxxxxxxxxxx');
+endsnippet
+
+# Invariants are cool.
+snippet inv
+invariant($1, '\`$1\` is missing.');
+endsnippet
+
+snippet it "it mocha"
+it('$1', () => {
+	$0
+});
+endsnippet
+
+snippet describe "describe mocha"
+describe('$1', () => {
+	$0
+});
+endsnippet
