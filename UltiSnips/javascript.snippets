@@ -14,9 +14,9 @@ snippet clesetup "log shortcut"
 const l = (...args) => console.info(...args);
 endsnippet
 
-# "Logging as expression": 
+# "Logging as expression":
 #   const foo = (a) => l('a', a) || a * 2
-# 
+#
 # This is a function foo that will return a*2 but log a before.
 snippet cle "log as expression" i
 l('$1', $1) || $0
@@ -24,7 +24,7 @@ endsnippet
 
 # "Logging as expression" (2):
 #   const foo = (a) => l('foo was called') || a * 2
-# 
+#
 # A function that will log "foo was called" before it returns its result
 snippet clee "log as expression 2" i
 l('$1') || $0
@@ -43,7 +43,7 @@ endsnippet
 
 # A comment in jsx
 snippet jsx
-/*
+{/*
   $0
 */}
 endsnippet
