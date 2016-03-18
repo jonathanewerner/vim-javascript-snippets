@@ -2,6 +2,8 @@
 
 Some javascript snippets meant for usage with [UltiSnips](https://github.com/SirVer/ultisnips) that are indespensable for me. 
 
+Have a look at the `UltiSnips` directory, there aren't many and most of them are commented. :)
+
 ## Installation
 ```viml
 " install deps with plugin manager of your choice
